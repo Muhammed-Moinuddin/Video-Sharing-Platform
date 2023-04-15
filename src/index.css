@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000022;
 }
 
 ::-webkit-scrollbar {
@@ -26,12 +26,12 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
-  color: white !important;
+  background-color: #bde0fe !important;
+  color: '#ff6700' !important;
 }
 
 .category-btn:hover span{
-  color: white !important;
+  color: '#ff6700' !important;
 }
 
 .react-player {
@@ -50,7 +50,7 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor:pointer;
   background: transparent;
   outline: none;

@@ -11,15 +11,16 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import ArticleIcon from '@mui/icons-material/Article';
+import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Y Combinator', icon: <RocketLaunchIcon />, },
+  { name: 'freeCodeCamp', icon: <LocalFireDepartmentIcon />, },
+  { name: 'ARY News', icon: <ArticleIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
